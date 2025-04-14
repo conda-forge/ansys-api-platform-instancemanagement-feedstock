@@ -24,7 +24,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - grpcio >=1.17,<2.dev0
-    - protobuf <6,>=3.19
+    - protobuf <7,>=3.19
 
 test:
   imports:
